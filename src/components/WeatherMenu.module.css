@@ -154,19 +154,19 @@
 
 /* Responsive design added */
 
-@media (min-width: 500px) {
+@media (max-width: 900px) {
     .title {
         font-size: 28px;
         position: absolute;
         top: 5%;
-        left: 9.3%;
+        left: 30%;
     }
     .searchContainer {
         position: relative;
-        margin-top: 10em;
+        margin-top: 13em;
         margin-bottom: 1em;
         width: 100%;
-        left: -9%;
+        left: 39.6%;
         transform: translateX(-50%);
         display: flex;
         flex-direction: column;
@@ -180,9 +180,9 @@
     }
     .city_and_temp {
         position: relative;
-        margin-bottom: 10em;
+        margin-bottom: 11em;
         width: 100%;
-        left: -134%;
+        left: 15%;
     }
     .city_and_temp p {
         font-size: 17px;
