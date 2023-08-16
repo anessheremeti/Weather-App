@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
 import classes from "./WeatherMenu.module.css";
 
 const WeatherMenu = () => {
