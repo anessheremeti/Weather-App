@@ -7,7 +7,7 @@ const WeatherMenu = () => {
 
   const api = {
     key: "750fb56d34014961a2f200900231007",
-    base: "http://api.weatherapi.com/v1",
+    base: "https://api.weatherapi.com/v1",
   };
 
   useEffect(() => {
@@ -46,6 +46,7 @@ const WeatherMenu = () => {
       <h1 className={classes.title}>Weather App</h1>
       <div className={classes.content}>
         <div className={classes.searchContainer}>
+        <div className={classes.input_container}>
           <input
             type="text"
             placeholder="Enter city/town..."
@@ -56,6 +57,7 @@ const WeatherMenu = () => {
           <button className={classes.searchButton} onClick={handleSearchClick}>
             Search
           </button>
+          </div>
         </div>
         <div className={classes.weatherInfo}>
           {weather && weather.forecast && weather.forecast.forecastday && (
