@@ -25,15 +25,11 @@
     /* Position the title absolutely */
     top: 0;
     /* Position at the top of the page */
-    left: 41.1%;
     /* Center horizontally */
     transform: translateX(-50%);
     /* Adjust horizontal centering */
 }
-.input_container{
-    position:relative;
-    left:15%;
-}
+
 
 @keyframes fadeIn {
     0% {
@@ -161,17 +157,10 @@
 @media (max-width: 900px) {
     .title {
         font-size: 28px;
-        position: absolute;
-        top: 5%;
-        left: 30%;
+       
     }
     .searchContainer {
-        position: relative;
-        margin-top: 13em;
-        margin-bottom: 1em;
-        width: 100%;
-        left: 39.6%;
-        transform: translateX(-50%);
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -184,9 +173,7 @@
     }
     .city_and_temp {
         position: relative;
-        margin-bottom: 11em;
-        width: 100%;
-        left: 15%;
+   
     }
     .city_and_temp p {
         font-size: 17px;
